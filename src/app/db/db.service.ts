@@ -15,9 +15,9 @@ export class DbService {
   }
 
   getDataById(id:string){
-	for(let student of this.students){
-		if(student.id===id) return student;
-	}
+		for(let student of this.students){
+			if(student.id===id) return student;
+		}
   }
 
 }
